@@ -1,3 +1,5 @@
+import javax.sound.midi.MetaMessage
+
 fun main() {
 
     try {
@@ -18,5 +20,8 @@ fun main() {
         println("This message will always be executed")
     }
 
+    class InvalidInputException(message: String) : Exception(message)
+
 
 }
+
