@@ -17,7 +17,7 @@ fun main() {
     val user3 = user1.copy()  //Will copy. These are the same data wise, but the memory allocated is different
 
     println("Is data the same? : ${ user1 == user3 }")
-    println("Is reference the same? : ${ user1 === user3 }") // Checks for reference (is)
+    println("Is reference the same? : ${ user1 === user3 }") // Checks for reference (is) (mem allocation)
 
     println("1st component = ${user3.component1()}")
     println("2nd component = ${user3.component2()}")
