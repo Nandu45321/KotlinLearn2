@@ -15,7 +15,7 @@ class Person2 (
     val age: Int = 0
 ) {
 
-    init {   // Will be called immediatly when the class is called/object is created
+    init {   // Will be called immediately when the class is called/object is created
         println("Person is created with name = $name and age = $age")
     }
 
