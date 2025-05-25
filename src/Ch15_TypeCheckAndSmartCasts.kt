@@ -1,7 +1,7 @@
 fun main() {
 
     println(typeChecker("Hi"))
-    println(typeChecker(49))
+    println(typeChecker(49))    
     println(typeChecker(48.9))
 
 }
