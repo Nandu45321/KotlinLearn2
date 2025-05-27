@@ -14,7 +14,7 @@ class Cat: Sound {
     }
 }
 
-//Past example, kinda
+//Past example, kind of
 class Example {
     val lazyValue: String by lazy {
         println("computed")         //lazy block gets init and not the var
